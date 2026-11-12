@@ -1,6 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
 node_modules/
-dist/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.claude/
+.vercel/
 .env
-.env.local
-*.log
-tsconfig.tsbuildinfo
+
+# TypeScript build cache
+*.tsbuildinfo

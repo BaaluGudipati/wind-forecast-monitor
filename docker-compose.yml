@@ -1,0 +1,15 @@
+# Run the full stack locally:  docker compose up --build   ->  http://localhost:8080
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  web:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
