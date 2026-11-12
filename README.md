@@ -2,7 +2,7 @@
 
 A web app for a UK utility's day-ahead power trading team. It shows **which national wind forecast was available when a purchase decision had to be made**, and **how accurate those forecasts turned out to be**, for purchase decisions made in **January 2026**.
 
-- **Live app:** <https://wind-forecast-monitor-rho-two.vercel.app/>
+- **Live app:** <https://wind-forecast-monitor-pckd.vercel.app/>
 - **Data:** Elexon BMRS: [`FUELHH`](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH/stream) (actual wind generation) and [`WINDFOR`](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/WINDFOR/stream) (wind forecasts)
 - **Stack:** React + TypeScript (Vite, Recharts) frontend · Python FastAPI backend · Docker · Vercel
 
